@@ -1,0 +1,44 @@
+
+
+        <li>
+            <input type="checkbox" id="toggle4">
+            <label for="toggle4">
+                <div class="info">
+                    <h2>X</h2>
+                    <span class="responsive-text">
+                        X metres above sea level
+                        <img src="X.jpg" alt="X">
+                        <hr style="border: 1px solid white;">
+                        <span>X</span>
+                        <img src="X_map.jpg" alt="X Location">
+                        <hr style="border: 1px solid white;">
+                        <div class="info">
+                            <span class="char">
+                            <h2>Characteristics</h2>
+                                <ul>
+                                    <li>X</li>
+                                    <li>X</li>
+                                    <li>X</li>
+                                    <li>X</li>
+                                </ul>
+                            </span>
+                        </div>
+                        <hr style="border: 1px solid white;">
+                        <div class="info">
+                            <span class="char">
+                            <h2>Paragliding rating<br>★★★★☆</h2>
+                                <ul>
+                                    <li>Difficulty<br>★★★★★</li>
+                                    <li>Views<br>★★★★★</li>
+                                    <li>Safety due to the village nearby<br>★★★☆☆</li>
+                                    <li>Adrenaline<br>★★★☆☆</li>
+                                    <li>Temperature<br>★★☆☆☆</li>
+                                    <li>Risk of lightnings<br>★★☆☆☆</li>
+                                    <li>Wind power<br>★★★★☆</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </span>
+                </div>
+            </label>
+        </li>

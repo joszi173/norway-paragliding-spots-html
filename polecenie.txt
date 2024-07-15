@@ -1,0 +1,39 @@
+Zaprojektować i wykonać responsywną stronę internetową o tematyce turystycznej, dla wybranego regionu w Polsce (lub w Europie). 
+
+Przykładowe tytuły: 
+
+Atrakcje turystyczne powiatu tomaszowskiego 
+Rowerem po Łodzi 
+Szlaki turystyczne i ścieżki rowerowe w województwie łódzkim. 
+
+Zaprojektować layout (układ graficzny) strony z wykorzystaniem CSS i HTML.
+Informacje zamieszczone na stronie powinny być przydatne dla potencjalnego użytkownika.
+
+
+W projekcie uwzględnić:
+
+treści przedstawiające ofertę turystyczną,
+mapę administracyjną regionu,
+mapy z przykładowymi szlakami turystycznymi,
+materiały graficzne: obrazy, wideo, animacje, galerie zdjęć.
+Przy tworzeniu strony internetowej wziąć pod uwagę:
+
+Projektując interfejs wczuć się w rolę użytkownika.
+Interfejs powinien być prosty i intuicyjny.
+Przemyśleć układ zawartości strony.
+Zaplanować nawigację na stronie.
+Użytkownik powinien wiedzieć w jakim miejscu na stronie się znajduje lub jaką czynność ma podjąć. Projekt layoutu musi obejmować stworzenie nawigacji na stronie zarówno w formie menu górnego (najlepiej rozwijalnego), jak i stopki, w której umieszczamy informacje o mniejszym znaczeniu.
+Stworzyć responsywny layout strony.
+Strona powinna dobrze wyglądać (być funkcjonalna i estetyczna) na wszystkich urządzeniach – stacjonarnych i mobilnych.
+Uwzględnić kolorystykę strony.
+Dobierając kolorystykę, trzeba pamiętać, aby kolory ze sobą dobrze współgrały. Zestawy kolorystyczne powinny być harmonijne i przyjemne dla oka, zawierać pasujące do siebie kolory.
+Dobrać fonty.
+Wybierać czcionkę czytelną, która dobrze wyświetla się niezależnie od wielkości. Krój bezszeryfowy dobrze sprawdzi się np. przy dłuższych treściach. Wybrany font musi obsługiwać polskie znaki. Na stronie używamy jednej, maksymalnie dwóch czcionek.
+Zachować przejrzystość i przestrzeń.
+Odpowiednie odstępy czy puste przestrzenie są rekomendowane,  aby zaakcentować, które elementy są bardziej istotne, a które mniej.
+Dobrać grafiki i wideo do projektu (obrazy, wideo, animacje, slidery).
+Materiały powinny być dobrej jakości. Najlepiej stosować elementy graficzne własnego autorstwa. Grafika nie powinna być elementem, który dodajemy, gdy nie mamy pomysłu "co jeszcze wstawić". Dodane materiały graficzne powinny mieć konkretną funkcję i znaczenie.
+ 
+Utworzyć folder z5-www-nazwisko. W folderze umieścić wszystkie pliki niezbędne do poprawnego wyświetlenia strony.
+Spakowany folder z ukończonym projektem zamieścić na wirtualnym dysku (w chmurze).
+Link umożliwiający pobranie projektu przesłać w MS Teams jako odpowiedź na zadanie 5.

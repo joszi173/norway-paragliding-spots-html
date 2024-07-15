@@ -1,0 +1,194 @@
+/* Ustawienia dla całego dokumentu */
+body {
+    position: relative;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('banner/banner.jpg') center/cover no-repeat;
+    opacity: 1;
+    z-index: -1;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+.banner {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.banner h1, .banner p {
+    position: relative;
+    z-index: 2;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    margin: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Stylizacja dla obrazków i listy paraglide spots */
+.paragliding-spots {
+    margin-top: 20px;
+}
+
+.paragliding-spots img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Dodaj przejście */
+}
+
+.paragliding-spots ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paragliding-spots li {
+    margin: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 200px;
+    flex: 1 1 calc(33.333% - 20px);
+    transition: transform 0.3s ease; /* Dodaj przejście */
+}
+
+.paragliding-spots li:hover {
+    transform: scale(1.1); /* Powiększ cały element */
+}
+
+.paragliding-spots li span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    opacity: 0.75;
+    font-style: italic;
+    font-size: smaller;
+}
+
+/* Dodatkowe style dla listy podsłów */
+.paragliding-spots li span ul {
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.paragliding-spots li span ul li {
+    font-size: 12px;
+}
+
+.paragliding-spots a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8px;
+    text-shadow: 1px 2px 3px black;
+    display: block;
+    transition: transform 0.3s ease; /* Dodaj przejście */
+}
+
+.paragliding-spots li:hover img, .paragliding-spots li:hover a {
+    transform: scale(1.05); /* Powiększ obraz i tekst */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .paragliding-spots li {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 20px 0;
+    }
+
+    .paragliding-spots li {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1.2em;
+    }
+}

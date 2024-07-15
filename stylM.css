@@ -1,0 +1,350 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+body.sete::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('sete_w.jpg') center/cover no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+body.hard::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('hardangervidda_w.jpg') center/cover no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+
+body.hurr::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Hurrungane_w.jpg') center/cover no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+
+body.jotun::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Jotunheimen_w.jpg') center/cover no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+body.halling::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Hallingskarvet_w.jpg') center/cover no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+
+
+.herb {
+    width: 70px;
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 20%;
+    max-width: 60%;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    margin-top: 20%;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.title span {
+    font-size: 2em;
+    color: white;
+    transition: color 0.3s ease;
+    font-style: italic;
+    font-style: bold;
+    margin: auto 0;
+}
+
+.title span:hover {
+    color: lightblue;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.return-button {
+    margin-left: 90%;
+    margin-top: 40%;
+    display: flex;
+    width: 100px;
+    position: fixed;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.return-button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    display: flex;
+    margin-left: 25%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.info span {
+    color: #666;
+    line-height: 1.5;
+}
+
+.paragliding-spots {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragliding-spots li {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    width: auto;
+    max-width: 800px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+
+@media (min-width: 800px) {
+    .paragliding-spots li {
+        width: calc(70% - 40px); /* Dla ekranów o szerokości co najmniej 768px, szerokość elementu wynosi połowę szerokości dostępnej przestrzeni minus marginesy */
+    }
+    .char ul li {
+        margin-left: 15%;
+        }
+    .info h2 {
+    font-size: smaller;
+    white-space: wrap; /* Uniemożliwiaj zawijanie tekstu */
+
+    }
+}
+
+.responsive-text {
+    overflow: hidden; /* Ukryj nadmiarowy tekst */
+    white-space: wrap; /* Uniemożliwiaj zawijanie tekstu */
+    text-overflow: ellipsis; /* Wyświetlaj "..." gdy tekst się zwija */
+    width: auto;
+}
+
+@media (min-width: 1200px) {
+    .paragliding-spots li {
+        width: auto; /* Dla ekranów o szerokości co najmniej 1200px, szerokość elementu wynosi jedną trzecią szerokości dostępnej przestrzeni minus marginesy */
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    .paragliding-spots li {
+        width: calc(30% - 40px); /* Dla ekranów o szerokości co najmniej 768px, szerokość elementu wynosi połowę szerokości dostępnej przestrzeni minus marginesy */
+    }
+    .char ul li {
+        margin-left: 35%;
+        }
+
+}    
+
+
+@media (max-width: 800px) {
+    .responsive-text {
+        font-size: 14px; /* Dostosuj rozmiar czcionki dla mniejszych ekranów */
+        overflow: hidden; /* Ukryj nadmiarowy tekst */
+        white-space: wrap; /* Uniemożliwiaj zawijanie tekstu */
+        text-overflow: ellipsis; /* Wyświetlaj "..." gdy tekst się zwija */
+    }
+}
+
+
+
+.paragliding-spots li h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    width: 800px;
+    min-width: auto;
+}
+
+.paragliding-spots li span {
+    display: none;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.paragliding-spots li:hover {
+    transform: translateY(-10px);
+}
+
+.paragliding-spots li:hover span {
+    display: block;
+}
+
+.paragliding-spots li input[type="checkbox"] {
+    display: none;
+}
+
+.paragliding-spots li label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: max-height 0.5s ease-out;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paragliding-spots li input[type="checkbox"]:checked ~ label span {
+    display: block;
+}
+
+.char h2 {
+    margin-right: 20%;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.char ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.char ul li {
+    padding: 10px 20px;
+    margin-right:15%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.char ul li:last-child {
+    border-bottom: none;
+}
+
+.char ul li::before {
+    content: "•";
+    color: #ffffff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 1.2em;
+}

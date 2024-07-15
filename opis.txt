@@ -1,0 +1,4 @@
+Strona przedstawia najlepsze miejsca do paralotniarstwa w Norwegii.
+Na stronie głównej znajduje się menu, które umożliwia wybranie pasma górskiego, który nas zainteresował. Pod spodem znajduje się liczba uzyskanych gwiazdek oraz krótkie opisy.
+W każdej podstronie są miejsca warte uwagi. Po najechaniu na nie, rozwija się opis, a po kliknięciu, pozostaje on rozwinięty. Opis zawiera: zdjęcie, miejsce na mapie, charakterystyczne cechy oraz ogólną ocene w postaci gwiazdek. Szczyty uporządkowane są według wysokości. Strona jest responsywna i adaptuje się do rozmiarów ekranu.
+Plik strony głównej: strona.html
